@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+input{
+    display: none;
+}
+
+.section2 {
+    background-image: url(https://images.unsplash.com/photo-1624943233648-9cf5cc4ee471?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 0.70;
+    height: 100vh;
+}
+
+.info {
+    padding-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 300px;
+}
+
+.info h1{
+    color: #663600;
+    font-size:55px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    text-align: center;
+}
+
+/*Adapted from https://www.sliderrevolution.com/resources/css-button-hover-effects/ */
+
+#btn1 {
+    color: #ffffff;
+    background-color: #663600;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.4s;
+    transition-property: background;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+#btn1:hover{
+    background: #ffa703;
+    padding-right: 24px;
+    padding-left:8px;
+}
+
+#btn1 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+#btn1:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -40px;
+    transition: 0.5s;
+  }
+  
+#btn1:hover:after {
+    opacity: 1;
+    right: 60px;
+  }
+
+.section3 {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+#no1 {
+    text-align: center;
+    padding-top:85px;
+    background-color: #ffa703;
+    margin: auto;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+#no3 {
+    text-align: center;
+    padding-top:85px;
+    background-color: #ffa703;
+    margin: auto;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+#no2{
+    text-align: center;
+    padding-top:85px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/07/08/14/14/slices-387451_1280.jpg);
+    margin: auto;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+#no4{
+    text-align: center;
+    padding-top:85px;
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/03/07/03/orange-6518675_1280.jpg);
+    margin: auto;
+    height: fit-content;
+    min-height: 100vh;
+}
+
+#no5 {
+    text-align: center;
+    padding-top:85px;
+    background-color: #ffa703;
+    margin: auto;
+    height: fit-content;
+}
+
+#quiz h1 {
+    margin: 0;
+    text-align: center; 
+    padding: 70px;
+    color: #fff59b;
+    background-color: #663600;
+    font-size: 40px; 
+}
+
+.question{
+    padding: 30px;
+    height:100vh;
+    background-size: cover;
+}
+
+.word-question {
+    padding: 30px;
+    height:100vh;
+    background-size: cover;
+}
+
+.word-question h3 {
+      display: inline-block;
+      background-color: #ffc04b;
+      color: #663600;
+      padding: 60px 60px;
+      font-size: 25px;
+      border: 3px;
+      border-radius: 6px;
+  }
+  
+  .word-question h3:hover {
+    background-color: #ffe8cd;
+  }
+
+  .word-question h3:checked {
+    background-color: #fcecd0;
+  }
+
+.submit {
+    text-align: center;
+    padding: 40px;
+    background-image: url(https://images.unsplash.com/photo-1624943233648-9cf5cc4ee471?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80);
+    opacity: 0.7;
+    height: 25vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#btn2 {
+    color: #ffffff;
+    background-color: #663600;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    font-size: 32px;
+    padding: 16px;
+    width: 220px;
+    transition: all 0.4s;
+    transition-property: background;
+    cursor: pointer;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+#btn2:hover{
+    background: #ffa703;
+    padding-right: 24px;
+    padding-left:8px;
+}
+
+#btn2 {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+#btn2:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;  
+    top: 14px;
+    right: -40px;
+    transition: 0.5s;
+  }
+  
+#btn2:hover:after {
+    opacity: 1;
+    right: 49px;
+  }
+
+.results {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+img {
+    padding: 10px;
+}
+
+/*Checked image*/
+input:checked ~ img{
+    opacity: 1;
+}
+
+input:hover ~ img {
+    opacity:0.5;
+    color: #ffe8cd;
+}
+
+/*All images before*/
+input:indeterminate ~ img{
+    opacity: 1;
+}
+
+/*Unselected images*/
+input ~ img{
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+/*Checked image*/
+input:checked ~ h3{
+    opacity: 1;
+}
+
+/*All images before*/
+input:indeterminate ~ h3 {
+    opacity: 1;
+}
+
+/*Unselected images*/
+input ~ h3{
+    opacity: 0.3;
+    transition-duration: 0.3s;
+}
+
+.content {
+    color: #663600;
+    background-color: rgb(236, 131, 7);
+    font-size: 20px;
+    border-radius: 5px;
+    width: 200px;
+    height: 500px;
+    padding-top: 10px;
+    padding: 30px;
+}
+
+.results {
+    display: none; 
+    position: fixed;
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+  }
+
+  /* Modal Content/Box Adapted from: https://www.w3schools.com/howto/howto_css_modals.asp */
+
+  .content {
+    position: relative;
+    background-color: #ffbb3c;
+    margin: 5% auto;
+    width: 85%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: drop-in;
+    animation-duration: 0.9s;
+    height: fit-content;
+    min-height: 600px;
+  }
+
+   /* Adapted from https://www.joshwcomeau.com/animation/keyframe-animations/ */
+  
+  @keyframes drop-in {
+    from {
+      transform:
+        rotate(-35deg) translateY(-100%);
+      opacity: 0;
+    }
+    to {
+      transform:
+        rotate(0deg) translateY(0%);
+      opacity: 1;
+    }
+  }
+
+  /* Modal Box */
+
+  .close {
+    color: #663600;
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  p {
+    text-align: center;
+    font-size: 30px;
+    color: #663600;
+    font-style: italic;
+  }
+
+  #description {
+      text-align: center;
+      font-size: 35px;
+      color: #663600;
+      display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 90px;
+        padding-right: 90px;
+  }
+
+  #title {
+    text-align: center;
+    font-size: 50px;
+    color: #663600;
+  }
+
+  .false {
+      display: none;
+  }
+
+  .true {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .close:hover {
+    color: #fff59b;
+    cursor: pointer;
+  }
+
+
+

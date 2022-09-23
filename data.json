@@ -1,0 +1,208 @@
+{
+    "title": "Which Citrus Dessert Are You?",
+    "background_image": "https://cdn.britannica.com/84/188484-050-F27B0049/lemons-tree.jpg",
+    "outcomes": {
+            "outcome1": {"img": "https://www.culinary-cool.com/wp-content/uploads/2019/05/Nanas-Lemon-Tarts-1-resized.jpg", "text": "You LOVE cheese, you love LEMON, you're certainly a Lemon Cream Cheese Tart!"},
+            "outcome2": {"img": "https://skinnycomfort.com/wp-content/uploads/2020/03/Key-Lime-Pie-14-735x735.jpg", "text": "You're sweet and tangy, just like everyone's favourite Key Lime Pie!"},
+            "outcome3": {"img": "https://www.oceanspray.com/-/media/OS/US/DotCom/recipes/Desserts-and-Snacks/Ruby-Red-Grapefruit-Panna-Cotta_MobileDETAIL_3122.ashx", "text": "You LOVE all things red, you absolutely adore grapefruit, you're definitely a Ruby Red Grapefruit Panna Cotta!"},
+            "outcome4": {"img": "https://zhangcatherine.com/wp-content/uploads/2021/04/P1011760-Edit-2-768x1024.jpg", "text": "Mmmmm, you LOVE Yuzu and adore cheese even more, you must be a Yuzu Cheesecake!"},
+            "outcome5": {"img": "https://www.afarmgirlsdabbles.com/wp-content/uploads/2010/05/lime-baby-cakes_s_600.jpg", "text": "You're lovely, you're fiesty and young, just like a Lime Baby Cake I reckon!"},
+            "outcome6": {"img": "https://i.ytimg.com/vi/QBkJ0O6R2_0/maxresdefault.jpg", "text": "Oh you like to get a little fancy don't you? You're most definitely an Orange Chocolate Entremet Tart!"}
+    },
+    "questions": [
+        {
+            "question_name": "Pick your favourite citrus fruit!",
+            "name": "fave",
+            "answers": [
+                {
+                    "text": "lemon",
+                    "img_url": "https://cdn.britannica.com/84/188484-050-F27B0049/lemons-tree.jpg",
+                    "value": "1",
+                    "height": "180"
+                },
+                {
+                    "text": "lime",
+                    "img_url": "https://blog.lexmed.com/images/librariesprovider80/blog-post-featured-images/limes.jpg?sfvrsn=2e28920b_0",
+                    "value": "2",
+                    "height": "180"
+                },
+                {
+                    "text": "grapefruit",
+                    "img_url": "https://cdn.britannica.com/45/190245-050-CCAFE09B/grapefruits-pomelos.jpg",
+                    "value": "3",
+                    "height": "180"
+                },
+                {
+                    "text": "orange",
+                    "img_url": "https://static.independent.co.uk/2021/01/30/12/iStock-1131608539or.jpg?quality=75&width=1200&auto=webp",
+                    "value": "4",
+                    "height": "180"
+                },
+                {
+                    "text": "yuzu",
+                    "img_url": "https://post.healthline.com/wp-content/uploads/2020/01/yuzu-japanese-citrus-1200x628-facebook.jpg",
+                    "value": "5",
+                    "height": "180"
+                },
+                {
+                    "text": "pomelo",
+                    "img_url": "https://www.savoryexperiments.com/wp-content/uploads/2020/05/pomelo.jpg",
+                    "value": "6",
+                    "height": "180"
+                }
+
+            ]
+        },
+        {
+            "question_name": "Pick an accompanying fragrance",
+            "name": "fragrance",
+            "answers": [
+                {
+                    "text": "r-lavender",
+                    "img": "",
+                    "value": "1"
+                },
+                {
+                    "text": "r-cinnamon",
+                    "img": "",
+                    "value": "2"
+                },
+                {
+                    "text": "r-apple",
+                    "img": "",
+                    "value": "3"
+                }, 
+                {
+                    "text": "r-ginger",
+                    "img": "",
+                    "value": "4"
+                },
+                {
+                    "text": "r-pumpkin",
+                    "img": "",
+                    "value": "5"
+                },
+                {
+                    "text": "r-salted",
+                    "img": "",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "question_name": "Your choice of crust?",
+            "name": "crust",
+            "answers": [
+                {
+                    "text": "oreo",
+                    "img_url": "https://static.onecms.io/wp-content/uploads/sites/19/2021/08/12/oreo-hero.jpg",
+                    "value": "1",
+                    "height": "190"
+                },
+                {
+                    "text": "grahamCracker",
+                    "img_url": "https://www.texanerin.com/content/uploads/2015/08/vegan-graham-crackers-image-1200.jpg",
+                    "value": "2",
+                    "height": "190"
+                },
+                {
+                    "text": "digestives",
+                    "img_url": "https://www.biggerbolderbaking.com/wp-content/uploads/2017/02/Digestive-Biscuits-copy-1-500x500.jpg",
+                    "value": "3",
+                    "height": "190"
+                },
+                {
+                    "text": "lotusBiscoff",
+                    "img_url": "https://media.cntraveler.com/photos/5e7819ae1185400008f5b3b5/5:4/w_1705,h_1364,c_limit/BiscoffCookies-Airlines-2020.jpg",
+                    "value": "4",
+                    "height": "190"
+                },
+                {
+                    "text": "almondFlour",
+                    "img_url": "https://post.healthline.com/wp-content/uploads/2020/08/AN609-Almond-Flour-732x549-thumb.jpg",
+                    "value": "5",
+                    "height": "190"
+                },
+                {
+                    "text": "nuts",
+                    "img_url": "https://paleogrubs.com/wp-content/uploads/2020/05/roasted-nuts-6.jpg",
+                    "value": "6",
+                    "height": "190"
+                }
+
+            ]
+        },
+        {
+            "question_name": "Ingredient you simply CANNOT leave out?",
+            "name": "ingredient",
+            "answers": [
+                {
+                    "text": "r-vanilla",
+                    "img": "",
+                    "value": "1"
+                },
+                {
+                    "text": "r-cc",
+                    "img": "",
+                    "value": "2"
+                },
+                {
+                    "text": "r-butter",
+                    "img": "",
+                    "value": "3"
+                }, 
+                {
+                    "text": "r-sugar",
+                    "img": "",
+                    "value": "4"
+                },
+                {
+                    "text": "r-coffee",
+                    "img": "",
+                    "value": "5"
+                },
+                {
+                    "text": "r-flour",
+                    "img": "",
+                    "value": "6"
+                }
+            ]
+        },
+        {
+            "question_name": "Take your dessert pick!",
+            "name": "pastry",
+            "answers": [
+                {
+                    "text": "tart",
+                    "img_url": "https://media.istockphoto.com/photos/tempting-pastries-and-pies-picture-id186844877?k=20&m=186844877&s=612x612&w=0&h=_8j3JeGvSW2jG_8X4fvocMSPg-eMxlZ3jxycNWgppDY=",
+                    "value": "1"
+                },
+                {
+                    "text": "macarons",
+                    "img_url": "https://www.jordanwinery.com/wp-content/uploads/2020/04/French-Macaron-Cookie-Recipe-WebHero-6435.jpg",
+                    "value": "2"
+                },
+                {
+                    "text": "cheesecake",
+                    "img_url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/strawberry-cheesecake-recipe1-1640206546.jpg",
+                    "value": "3"
+                },
+                {
+                    "text": "pannacotta",
+                    "img_url": "https://www.modernhoney.com/wp-content/uploads/2020/12/Vanilla-Bean-Panna-Cotta-1-scaled.jpg",
+                    "value": "4"
+                },
+                {
+                    "text": "pie",
+                    "img_url":"https://images-gmi-pmc.edge-generalmills.com/88db4f89-e1c5-4450-8135-acf021c820c8.jpg",
+                    "value": "5"
+                },
+                {
+                    "text": "puff",
+                    "img_url": "https://www.theflavorbender.com/wp-content/uploads/2021/02/Cream-puffs-2753-2.jpg",
+                    "value": "6"
+                }
+
+            ]
+        }
+    ]}
